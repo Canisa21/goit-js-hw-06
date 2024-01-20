@@ -22,3 +22,26 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.img-task03 {
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(25, 131, 112);
+}
+
+.img-task03>img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 30%;
+
+}
