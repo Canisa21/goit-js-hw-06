@@ -7,4 +7,3 @@ const currentSize = parseInt(inputControl.value);
 textSpan.style.fontSize = `${currentSize}px`;
 };
 inputControl.addEventListener("input", changeFontSize);
-inputControl.addEventListener
